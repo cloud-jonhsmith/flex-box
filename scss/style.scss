@@ -2,11 +2,14 @@
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.contenedor {
     .red {
-        color: red;
+        background-color: red;
     }
     .yellow {
-        color: yellow;
+        background-color: yellow;
     }
 }
 

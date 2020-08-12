@@ -7,28 +7,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="flex-container yellow">
-        <div id="button1" onclick="alerta1()">1</div>
-        <div id="button2" onclick="alerta2()">2</div>
-        <div id="button3" onclick="alerta3()">3</div>
+    <div class="contenedor red">
+        <div class="flex-container">
+            <div onclick="alerta1()">1</div>
+            <div onclick="alerta2()">2</div>
+            <div onclick="alerta3()">3</div>
+        </div>
     </div>
-    <div class="flex-container red">
-        <div id="button4" onclick="alerta4()">4</div>
-        <div id="button5" onclick="alerta5()" style="flex-basis: 420px">5</div>
+    <div class="contenedor yellow">
+        <div class="flex-container">
+            <div id="button4" onclick="alerta4()">4</div>
+            <div id="button5" onclick="alerta5()" style="flex-basis:    420px">5</div>
+        </div>
     </div>
     <script>
-        const button1 = document.getElementById('button');
-        const button2 = document.getElementById('button');
-        const button3 = document.getElementById('button');
-        const button4 = document.getElementById('button');
-        const button5 = document.getElementById('button');
-
-        button1.addEventListener('click' , () => {button.getAttribute})
-        button2.addEventListener('click' , () => {button.getAttribute})
-        button3.addEventListener('click' , () => {button.getAttribute})
-        button4.addEventListener('click' , () => {button.getAttribute})
-        button5.addEventListener('click' , () => {button.getAttribute})
-
         function alerta1() {
             alert ("Usted ha hecho click en el cuadrado Nº: 1");
         }

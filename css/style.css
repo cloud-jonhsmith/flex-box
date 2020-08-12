@@ -3,15 +3,16 @@
   justify-content: center;
   align-content: center;
 }
-.flex-container .red {
-  color: red;
+
+.contenedor.red {
+  background-color: red;
 }
-.flex-container .yellow {
-  color: yellow;
+.contenedor.yellow {
+  background-color: yellow;
 }
 
 .flex-container > div {
-  background-color: dodgerblue;
+  background-color: blue;
   width: 200px;
   margin: 10px;
   text-align: center;
