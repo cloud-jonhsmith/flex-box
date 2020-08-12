@@ -1,0 +1,20 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.flex-container .red {
+  color: red;
+}
+.flex-container .yellow {
+  color: yellow;
+}
+
+.flex-container > div {
+  background-color: dodgerblue;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 200px;
+  color: white;
+}
