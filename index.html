@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <header class="menu-header">
+        <ul class="menu">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <hr class="linea">
+        <h1>
+            WELCOME TO THE GUIDE CSS
+        </h1>        
+    </header>
+
     <div class="contenedor red">
         <div class="flex-container">
             <div onclick="alerta1()">1</div>
@@ -16,10 +29,14 @@
     </div>
     <div class="contenedor yellow">
         <div class="flex-container">
-            <div id="button4" onclick="alerta4()">4</div>
-            <div id="button5" onclick="alerta5()" style="flex-basis:    420px">5</div>
+            <div onclick="alerta4()">4</div>
+            <div onclick="alerta5()" style="flex-basis: 560px">5</div>
         </div>
     </div>
+
+    <!-- <script> 
+        alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
+    </script> -->
     <script>
         function alerta1() {
             alert ("Usted ha hecho click en el cuadrado Nº: 1");

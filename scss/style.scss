@@ -9,7 +9,7 @@
         background-color: red;
     }
     .yellow {
-        background-color: yellow;
+        background-color:blue;
     }
 }
 
@@ -20,4 +20,9 @@
     text-align: center;
     line-height: 200px;
     color: white;
+}
+
+.menu {
+    display: flex;
+    align-content: flex-end;
 }

@@ -1,21 +1,61 @@
+:root {
+  /* --color: rgb(255, 255, 255); */
+  --colorborde: black;
+  --colorred: .red;
+  --coloryellow: .yellow;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-.contenedor.red {
-  background-color: red;
+.contenedor .red {
+  background-color: var(--colorred);
 }
-.contenedor.yellow {
-  background-color: yellow;
+.contenedor .yellow {
+  background-color: var(--coloryellow);
 }
 
 .flex-container > div {
-  background-color: blue;
+  border: 5px solid var(--colorborde);
   width: 200px;
-  margin: 10px;
+  margin: 10px 75px 50px 75px;
   text-align: center;
   line-height: 200px;
   color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu > li {
+  background-color: steelblue;
+  color: whitesmoke;
+  width: 100px;
+  line-height: 30px;
+  margin: 5px;
+  text-align: center;
+  font-size: 22px;
+  list-style: none;
+}
+
+.linea {
+  background-color: var(--colorborde);
+  border: none;
+  height: 2px;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .flex-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
